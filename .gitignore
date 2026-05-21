@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Generated QA images (large, not needed in repo)
+slides_qa/
+
+# Generated Office files (binary, tracked separately)
+*.docx
+*.pptx
+
+# Env / local config
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
